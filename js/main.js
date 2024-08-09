@@ -60,9 +60,9 @@ barsItem.forEach((el) => {
         behavior: "smooth",
       });
     }
-    if (e.target.dataset.go === "portofolio") {
+    if (e.target.dataset.go === "portfolio") {
       window.scrollTo({
-        top: document.querySelector("#portofolio").offsetTop,
+        top: document.querySelector("#portfolio").offsetTop,
         behavior: "smooth",
       });
     }

@@ -75,7 +75,7 @@ header .container {
   position: absolute;
   left: -400%;
   /* top: -50px; */
-  height: 0;
+  /* height: 0; */
   width: 200px;
   overflow: hidden;
   display: none;
@@ -128,16 +128,25 @@ header .container {
   padding-left: 20px;
   /* transform: translateX(10px); */
 }
-@media (max-width: 400px) {
+@media (max-width: 767px) {
   .container {
     width: 100%;
   }
   .links .list-items.active {
     top: 10px;
-    left: -100px;
+    left: -120px;
     display: block;
     min-height: auto;
+    max-width: fit-content !important;
     overflow: visible;
+  }
+  .links .list-items {
+    background-color: var(--darkColor);
+    color: var(--minColor);
+    height: 240px !important;
+  }
+  .links .list-items:before {
+    display: none;
   }
 }
 /* end heaader */
@@ -192,10 +201,14 @@ header .container {
   .landing .welcome {
     text-align: left;
   }
-  .landing .welcome p {
+  .landing .welcome h1 {
     text-align: left;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .landing .welcome p {
     width: 250px;
-    margin: initial;
+    margin: 0 auto;
     padding: 10px;
   }
   .icons-container div {
@@ -204,12 +217,13 @@ header .container {
 
   .icons-container div p,
   .icons-container div h1 {
-    text-align: left;
+    text-align: center;
+    text-wrap: balance;
   }
 }
-@media (min-width: 401px) and (max-width: 860px) {
+@media (max-width: 767px) {
   .icons-container div {
-    flex-basis: 50%;
+    flex-basis: 90%;
   }
   .landing .welcome {
     text-align: center;
@@ -284,9 +298,10 @@ header .container {
   z-index: -1;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 767px) {
   .services-container .flex-icons {
     flex-direction: column;
+    margin: -100px;
   }
   .services-container .sheaps div {
     padding: 100px;
@@ -314,10 +329,23 @@ header .container {
   }
   .services-container .serv-icon {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     flex-shrink: 0;
+    text-align: center;
+    text-wrap: balance;
+    margin: 0 auto;
+  }
+
+  .services-container .serv-icon h3 {
+    margin: 0;
   }
   .services-container .serv-icon i {
     position: absolute;
+    left: 50%;
+    transform: translate(-120px, 00px);
   }
 }
 /* end Services */
@@ -339,7 +367,7 @@ header .container {
 }
 .portfolio .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   margin-bottom: 20px;
 }
@@ -405,7 +433,7 @@ header .container {
 
 .about-content .image img {
   max-width: 100%;
-  height: 100%;
+  /* height: 100%; */
 }
 .text {
   display: flex;
@@ -496,7 +524,12 @@ header .container {
     font-size: 20px;
   }
   .big-title {
-    font-size: 50px;
+    font-size: 50px !important;
+    letter-spacing: -1px !important;
+  }
+  .big-title + p {
+    font-size: 15px !important;
+    transform: translateY(-70px) !important;
   }
 }
 /* end contacts */
