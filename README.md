@@ -16,8 +16,9 @@ Just For Practice
 
 ### See The Projects
 
-<center><a href="https://u-shen.github.io/LEON_WEB_SITES/"></a></center>
+#### LINK [LEON WEB SITE](https://u-shen.github.io/LEON_WEB_SITES/)
 
+<br />
 ![alt text](./assets/SHOWCASE1.png)
 <br />
 ![alt text](./assets/SHOWCASE2.png)
