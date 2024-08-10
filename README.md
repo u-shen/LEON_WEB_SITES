@@ -6,9 +6,8 @@ And Done With Create The Whole Desgin.
 ## Desgin Inspartions
 
 I get Inspartions from Template One From **Elzero_Web_School** <br />
-"Just By Seeing Picture Of Desgin I Create Everything from Scratch" <br />
 I Think In Future I will Create Template Two And Three And Four More Practice <br/>
-Just For Practice
+Just For Practice.
 
 - [x] Html
 - [x] CSS
