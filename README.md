@@ -15,9 +15,10 @@ Just For Practice
 - [x] JAVASCRIPTS
 
 ### See The Projects
-[LEON WEB SITE](https://u-shen.github.io/LEON_WEB_SITES/)
+
+<center><a href="https://u-shen.github.io/LEON_WEB_SITES/"></a></center>
+
 ![alt text](./assets/SHOWCASE1.png)
 <br />
 ![alt text](./assets/SHOWCASE2.png)
 <br />
-![alt text](./assets/SHOWCASE3.png)
