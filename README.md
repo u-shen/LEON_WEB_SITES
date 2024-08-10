@@ -19,7 +19,11 @@ Just For Practice
 #### LINK [LEON WEB SITE](https://u-shen.github.io/LEON_WEB_SITES/)
 
 <br />
+
 ![alt text](./assets/SHOWCASE1.png)
+
 <br />
+
 ![alt text](./assets/SHOWCASE2.png)
+
 <br />
