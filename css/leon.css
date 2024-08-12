@@ -139,6 +139,7 @@ header .container {
     min-height: auto;
     max-width: fit-content !important;
     overflow: visible;
+    color: white;
   }
   .links .list-items {
     background-color: var(--darkColor);
